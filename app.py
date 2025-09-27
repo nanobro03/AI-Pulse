@@ -13,8 +13,6 @@ from PIL import Image # Make sure PIL is installed: pip install Pillow
 st.set_page_config(page_title="AI Pulse Dashboard", layout="wide")
 
 # ------------------ IMAGE DISPLAY LOGIC ------------------
-# This logic runs first. If it finds "?view_photo=" in the URL, it displays the image
-# in a container at the top and stops the rest of the app from loading.
 if 'view_photo' in st.query_params:
     incident_id_to_show = st.query_params['view_photo']
     
@@ -49,8 +47,6 @@ if 'view_photo' in st.query_params:
     # Add a link to return to the main dashboard
     st.markdown("### [← Click here to close and return to the dashboard](/)", unsafe_allow_html=True)
 
-# This 'else' block contains your entire dashboard.
-# It only runs if the 'view_photo' parameter is NOT in the URL.
 else:
     st.title("🚧 AI Pulse Dashboard")
 
@@ -65,9 +61,7 @@ else:
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
     # ------------------ FETCH DATA WITH CACHING ------------------
-    # IMPROVEMENT: Cache data fetching to improve performance. The app will only
-    # re-run this function if the code changes, not on every user interaction.
-    @st.cache_data
+ 
     def fetch_data():
         try:
             response = supabase.table("incident_table") \
@@ -99,9 +93,7 @@ else:
     if not df.empty:
         for col in ["reported_at", "updated_at"]:
             if col in df.columns:
-                # CRITICAL FIX: Add errors='coerce' to prevent crashing on invalid date formats.
-                # Invalid dates will become NaT (Not a Time), which can be handled gracefully.
-                df[col] = pd.to_datetime(df[col], errors='coerce')
+              df[col] = pd.to_datetime(df[col], errors='coerce')
 
         total_incidents = len(df)
         status_counts = df["status"].value_counts() if "status" in df.columns else pd.Series()
@@ -220,3 +212,4 @@ else:
         )
         fig_fake.update_layout(mapbox_style="open-street-map", margin={"r":0,"t":0,"l":0,"b":0})
         st.plotly_chart(fig_fake, use_container_width=True)
+
