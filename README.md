@@ -22,7 +22,7 @@ Before you begin, ensure you have the following installed:
 > **Important**: Do **not** just open `app.py`.
 
 * In VS Code, go to **File > Open Folder...**
-* Select your main project folder (e.g., `DataVisualization`).
+* Select your main project folder.
 
 ---
 
@@ -46,10 +46,10 @@ python -m venv venv
 3. Pick the interpreter with:
 
    ```
-   .\venv\Scripts\python.exe
+   .\venv\Scripts\Activate.ps1
    ```
 
-   (usually marked ⭐ *Recommended*).
+
 
 ![Python Interpreter Selection](https://code.visualstudio.com/assets/docs/python/environments/interpreter-in-action.gif)
 
@@ -65,9 +65,6 @@ pip install -r requirements.txt
 
 > ⚠️ If you see an error about scripts being disabled, run this **once**:
 
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
 
 ---
 
@@ -82,14 +79,6 @@ SUPABASE_KEY="your_supabase_public_api_key_here"
 
 ---
 
-### 6. Add Incident Photos
-
-* Create a folder named **`incident_photos`** in your project.
-* Place your image files (`.jpg`, `.png`) inside.
-* Rename each file to match the **incident id** (e.g., `27.jpg`).
-
----
-
 ## ▶️ Running the Application
 
 ### Option 1: Using the Terminal (Recommended)
@@ -98,48 +87,3 @@ SUPABASE_KEY="your_supabase_public_api_key_here"
 streamlit run app.py
 ```
 
-### Option 2: Using "Run and Debug"
-
-1. Go to **Run and Debug** tab in VS Code.
-2. Click **create a launch.json file** → choose **Module**.
-3. Enter `streamlit` when asked for module name.
-4. Replace the auto-generated `.vscode/launch.json` with:
-
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Streamlit",
-      "type": "python",
-      "request": "launch",
-      "module": "streamlit",
-      "args": [
-        "run",
-        "app.py"
-      ]
-    }
-  ]
-}
-```
-
-* Now you can press **F5** (or the green ▶ button) to run the app.
-
----
-
-## 📂 Project Structure
-
-```
-.
-├── incident_photos/
-│   ├── 1.jpg
-│   ├── 12.png
-│   └── ...
-├── venv/
-├── .vscode/
-│   └── launch.json
-├── .env
-├── app.py
-├── requirements.txt
-└── README.md
-```
