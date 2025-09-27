@@ -1,4 +1,4 @@
-# 🚧 Cyberjaya Road Incident Dashboard (VS Code Guide)
+# 🚧 AI Pulse Dashboard (VS Code Guide)
 
 A **Streamlit web application** that visualizes road incident data from a **Supabase** database.
 This guide provides setup and run instructions specifically for **Visual Studio Code**.
@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 
 If you don’t already have a `venv` folder:
 
-```powershell
+```terminal
 python -m venv venv
 ```
 
@@ -59,7 +59,7 @@ python -m venv venv
 
 ### 4. Install Required Packages
 
-```powershell
+```terminal
 pip install -r requirements.txt
 ```
 
@@ -83,7 +83,7 @@ SUPABASE_KEY="your_supabase_public_api_key_here"
 
 ### Option 1: Using the Terminal (Recommended)
 
-```powershell
+```terminal
 streamlit run app.py
 ```
 
