@@ -1,0 +1,31 @@
+id,reported_at,updated_at,incident_type,location,description,reported_by,status,priority
+1,2025-09-20 22:32:00,2025-09-20 23:05:00,Minor Littering,Subang Jaya SS15 Main Road,Minor Littering reported at Subang Jaya SS15 Main Road,VanService_Selangor45,Resolved,Low
+2,2025-09-22 01:22:00,2025-09-22 02:01:00,Pothole,Shah Alam Stadium Area,Pothole reported at Shah Alam Stadium Area,RapidKL_Bus123,Resolved,Medium
+3,2025-09-21 02:15:00,2025-09-21 03:13:00,Road Block,Cyberjaya Persiaran Rimba,Road Block reported at Cyberjaya Persiaran Rimba,PDRM_PatrolUnit5,In Progress,Medium
+4,2025-09-21 05:03:00,2025-09-21 05:20:00,Fire,Cyberjaya Persiaran Rimba,Fire reported at Cyberjaya Persiaran Rimba,WazeUser,In Progress,Critical
+5,2025-09-21 19:59:00,2025-09-21 20:26:00,Flood,Petaling Jaya Section 14 Market,Flood reported at Petaling Jaya Section 14 Market,WazeUser,Open,Critical
+6,2025-09-21 05:16:00,2025-09-21 05:47:00,Streetlight Outage,KL Sentral Parking Lot,Streetlight Outage reported at KL Sentral Parking Lot,WazeUser,Open,Low
+7,2025-09-21 13:19:00,2025-09-21 13:51:00,Accident,Subang Parade Mall,Accident reported at Subang Parade Mall,VanService_KL09,In Progress,High
+8,2025-09-21 03:22:00,2025-09-21 03:32:00,Accident,Putrajaya Precinct 2,Accident reported at Putrajaya Precinct 2,WazeUser,Open,High
+9,2025-09-21 11:28:00,2025-09-21 11:44:00,Accident,Subang Parade Mall,Accident reported at Subang Parade Mall,Drone_A1,Open,High
+10,2025-09-20 19:43:00,2025-09-20 20:22:00,Fire,PJ Old Town,Fire reported at PJ Old Town,VanService_Selangor45,Open,Critical
+11,2025-09-20 21:32:00,2025-09-20 22:09:00,Flood,Cyberjaya Persiaran Rimba,Flood reported at Cyberjaya Persiaran Rimba,WazeUser,Open,Critical
+12,2025-09-22 04:15:00,2025-09-22 04:36:00,Flood,Shah Alam Stadium Area,Flood reported at Shah Alam Stadium Area,WazeUser,In Progress,Critical
+13,2025-09-22 07:03:00,2025-09-22 07:19:00,Pothole,Subang Parade Mall,Pothole reported at Subang Parade Mall,Drone_C3,Open,Medium
+14,2025-09-21 21:37:00,2025-09-21 22:08:00,Flood,Shah Alam Stadium Area,Flood reported at Shah Alam Stadium Area,VanService_Selangor45,Resolved,Critical
+15,2025-09-21 04:47:00,2025-09-21 05:07:00,Accident,KLCC Jalan Ampang,Accident reported at KLCC Jalan Ampang,Drone_C3,Resolved,High
+16,2025-09-21 00:42:00,2025-09-21 01:19:00,Fire,Subang Parade Mall,Fire reported at Subang Parade Mall,CitizenApp,Open,Critical
+17,2025-09-21 02:21:00,2025-09-21 02:50:00,Streetlight Outage,PJ Old Town,Streetlight Outage reported at PJ Old Town,DBKL_TrafficTeam,Resolved,Low
+18,2025-09-21 20:08:00,2025-09-21 21:03:00,Road Block,Subang Parade Mall,Road Block reported at Subang Parade Mall,RapidKL_Bus245,Resolved,Medium
+19,2025-09-21 02:46:00,2025-09-21 03:04:00,Streetlight Outage,Cyberjaya Persiaran Multimedia,Streetlight Outage reported at Cyberjaya Persiaran Multimedia,VanService_KL09,Open,Low
+20,2025-09-22 05:08:00,2025-09-22 05:33:00,Flood,Petaling Jaya Section 14 Market,Flood reported at Petaling Jaya Section 14 Market,Drone_C3,Open,Critical
+21,2025-09-22 08:44:00,2025-09-22 09:13:00,Minor Littering,Cyberjaya Persiaran Rimba,Minor Littering reported at Cyberjaya Persiaran Rimba,WazeUser,Resolved,Low
+22,2025-09-21 07:47:00,2025-09-21 08:11:00,Road Block,Shah Alam Stadium Area,Road Block reported at Shah Alam Stadium Area,VanService_KL09,In Progress,Medium
+23,2025-09-20 20:00:00,2025-09-20 20:28:00,Pothole,Cyberjaya Persiaran Multimedia,Pothole reported at Cyberjaya Persiaran Multimedia,RapidKL_Bus245,In Progress,Medium
+24,2025-09-20 11:34:00,2025-09-20 11:58:00,Minor Littering,KLCC Jalan Ampang,Minor Littering reported at KLCC Jalan Ampang,CitizenApp,Open,Low
+25,2025-09-20 17:40:00,2025-09-20 18:31:00,Pothole,Shah Alam Stadium Area,Pothole reported at Shah Alam Stadium Area,Drone_B2,Resolved,Medium
+26,2025-09-20 11:41:00,2025-09-20 12:11:00,Pothole,Subang Parade Mall,Pothole reported at Subang Parade Mall,CitizenApp,In Progress,Medium
+27,2025-09-22 03:43:00,2025-09-22 04:22:00,Flood,Petaling Jaya Section 14 Market,Flood reported at Petaling Jaya Section 14 Market,PDRM_PatrolUnit5,Resolved,Critical
+28,2025-09-22 03:00:00,2025-09-22 03:23:00,Accident,Subang Parade Mall,Accident reported at Subang Parade Mall,Drone_A1,In Progress,High
+29,2025-09-22 05:49:00,2025-09-22 06:02:00,Streetlight Outage,Subang Parade Mall,Streetlight Outage reported at Subang Parade Mall,MyJPJApp,Open,Low
+30,2025-09-20 12:05:00,2025-09-20 12:20:00,Streetlight Outage,KLCC Jalan Ampang,Streetlight Outage reported at KLCC Jalan Ampang,VanService_KL09,Open,Low
