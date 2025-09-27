@@ -68,17 +68,6 @@ pip install -r requirements.txt
 
 ---
 
-### 5. Set Up Environment Variables
-
-Create a new file in your project root called **`.env`** and add:
-
-```env
-SUPABASE_URL="your_supabase_url_here"
-SUPABASE_KEY="your_supabase_public_api_key_here"
-```
-
----
-
 ## ▶️ Running the Application
 
 ### Option 1: Using the Terminal (Recommended)
